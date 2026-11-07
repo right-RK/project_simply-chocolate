@@ -1,0 +1,49 @@
+/* ============== COMMON STYLES ============== */
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.02em;
+  color: #111;
+  background: #fafafa;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+/* ============== HEADER ============== */
+.header-page {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.header-logo {
+  text-transform: uppercase;
+}
+
+.header-text-italic {
+  font-style: italic;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #fd9222;
+}
+
+/* ============== HERO ============== */
