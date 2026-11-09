@@ -113,9 +113,7 @@ padding-bottom: 30px;
 }
 
 /* ============== HERO ============== */
-.hero-section{
 
-}
 .hero-title{
   font-weight: 500;
 font-size: 28px;
@@ -204,4 +202,48 @@ margin-bottom: 28px;
 
 .ingridients-description{
   max-width: 486px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 54px;
+}
+
+.ingridients-list{
+  display: flex;
+  column-gap: 24px;
+}
+.ingridients-list-item{
+  width: calc((100% - 72px) / 4);
+  border: 1px solid #fd9222;;
+ padding: 28px 32px;
+ border-radius: 15px;
+ color: #ffffff;
+}
+
+.ingridients-list-img{
+  margin-bottom: 36px;
+}
+
+.ingridients-list-item:nth-child(even) {
+  background-color: #ffffff;
+  color: #111111;
+}
+.ingridients-list-item:nth-child(4n + 1) {
+  background-color: #fd9222;
+}
+.ingridients-list-item:nth-child(4n + 3) {
+  background-color: #1e1823;
+ border: 1px solid #1e1823;;
+}
+
+.ingridients-list-title{
+font-weight: 600;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
 }
