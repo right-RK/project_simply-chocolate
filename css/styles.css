@@ -6,9 +6,54 @@ body {
   background: #fafafa;
 }
 
+.container{
+  width: 1168px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-paddings{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.accent-color{
+  color: #fd9222;
+}
+
+.section-title{
+ font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-align: center;
+text-transform: uppercase; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
 }
 
 a {
@@ -20,6 +65,27 @@ button {
 }
 
 /* ============== HEADER ============== */
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu{
+   display: flex;
+   column-gap: 24px;
+}
+
+.header-menu-link{
+display: block;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: -0.02em;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
 .header-page {
   font-weight: 700;
   font-size: 18px;
@@ -47,3 +113,95 @@ button {
 }
 
 /* ============== HERO ============== */
+.hero-section{
+
+}
+.hero-title{
+  font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.03em;
+color: #fff;
+}
+.hero-button{
+font-weight: 600;
+font-size: 14px;
+border-radius: 100px;
+padding-block: 14px;
+padding-inline: 40px;
+width: 144px;
+height: 45px;
+background: #fd9222;
+}
+.hero-button:hover,
+.hero-button:active{
+color: #fd9222;
+background: #fcf1e0;
+}
+
+.hero-link{
+  border: 1px solid #fff;
+border-radius: 100px;
+padding-block: 14px;
+padding-inline: 40px;
+width: 183px;
+height: 45px;
+font-weight: 600;
+font-size: 14px;
+color: #fff;
+}
+.hero-link:hover,
+.hero-link:active {
+  border: 1px solid #fd9222;
+  color: #fd9222;
+}
+.hero-scroll{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.03em;
+color: #fff;
+}
+
+/* ============== BENEFITS ============== */
+
+.visually-hiden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip:rect(0 0 0 0);
+overflow: hidden;
+}
+
+.benefits-section{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.benefits-title{
+font-weight: 600;
+font-size: 24px;
+line-height: 1.16;
+letter-spacing: -0.03em;
+text-align: center;
+text-transform: uppercase;
+color: #111;
+}
+
+/* ============== INGRIDIENTS ============== */
+
+.ingridients-title{
+max-width: 410px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 28px;
+}
+
+.ingridients-description{
+  max-width: 486px;
+}
