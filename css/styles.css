@@ -113,24 +113,49 @@ padding-bottom: 30px;
 }
 
 /* ============== HERO ============== */
+.hero-section{
+width: 1200px;
+height: 600px;
+background: #1e1823;
+margin-left: auto;
+margin-right: auto;
+border-radius: 30px;
+}
+
+.hero-content{
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+  margin-left: 72px;
+  margin-right: 72px;
+ 
+}
 
 .hero-title{
+  width: 484px;
+  padding-top: 375px;
+  margin-bottom: 32px;
+  margin-left: 72px;
   font-weight: 500;
 font-size: 28px;
 line-height: 1.21;
 letter-spacing: -0.03em;
 color: #fff;
 }
+
 .hero-button{
+  border: none;
 font-weight: 600;
 font-size: 14px;
 border-radius: 100px;
-padding-block: 14px;
-padding-inline: 40px;
+margin-right: 14px;
+/* padding-block: 14px;
+padding-inline: 40px; */
 width: 144px;
 height: 45px;
-background: #fd9222;
+background-color: #fd9222;
 }
+
 .hero-button:hover,
 .hero-button:active{
 color: #fd9222;
@@ -148,17 +173,28 @@ font-weight: 600;
 font-size: 14px;
 color: #fff;
 }
+
 .hero-link:hover,
 .hero-link:active {
   border: 1px solid #fd9222;
   color: #fd9222;
 }
+.hero-srolll-button{
+  display: block;
+  justify-content:space-around;
+}
 .hero-scroll{
   font-weight: 500;
 font-size: 14px;
-line-height: 1.28571;
+line-height: 1.29;
 letter-spacing: -0.03em;
 color: #fff;
+align-items: center;
+margin-left: 637px;
+}
+.hero-scroll:hover,
+.hero-scroll:active{
+color: #fd9222;
 }
 
 /* ============== BENEFITS ============== */
